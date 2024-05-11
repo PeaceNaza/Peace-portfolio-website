@@ -23,12 +23,24 @@ const Projects = () => {
          // when window width is >= 640px
          640: {
            width: 640,
-           slidesPerView: 2,
+           slidesPerView: 1,
          },
          // when window width is >= 768px
          768: {
            width: 768,
            slidesPerView: 2,
+         },
+
+         //when window width is >= 1024px
+         1024: {
+           width: 1024,
+           slidesPerView: 3,
+         },
+
+         //when window width is >= 1280px
+         1280: {
+           width: 1280,
+           slidesPerView: 3,
          },
        }}
       onSlideChange={() => console.log('slide change')}
