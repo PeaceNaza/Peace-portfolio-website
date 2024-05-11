@@ -4,15 +4,15 @@ const Header = () => {
 
   return (
     <>
-      <div className="navbar bg-[#F3D8E0] text-[#313140] ">
+      <div className="navbar bg-[#F3D8E0] text-[#22024A]">
   <div className="flex-1">
     <a className="btn btn-ghost text-xl">Peace Chinaza Nwosu</a>
   </div>
-  <div className="flex-none">
+  <div className="flex-none font-normal text-sm">
     <ul className="menu menu-horizontal px-1">
       <li>
         <details>
-          <summary>
+          <summary className="lg:mr-4 sm:ml-10">
            Blog
           </summary>
           <ul className="p-2 bg-base-100 rounded-t-none">
@@ -21,8 +21,9 @@ const Header = () => {
           </ul>
         </details>
       </li>
-      <li><a href="https://github.com/PeaceNaza">Github</a></li>
-      <li><a href="https://www.linkedin.com/in/peace-nwosu-69047623a/">LinkedIn</a></li>
+
+      <li className="lg:mr-4"><a href="https://github.com/PeaceNaza">Github</a></li>
+      <li className="lg:mr-5"><a href="https://www.linkedin.com/in/peace-nwosu-69047623a/">LinkedIn</a></li>
     </ul>
   </div>
 </div>

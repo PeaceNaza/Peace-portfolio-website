@@ -5,6 +5,8 @@ import Intro from './components/Cards/Intro'
 import Projects from './components/Cards/Projects'
 import About from './components/Cards/About'
 import Footer from './components/Layouts/Footer'
+import "./components/Styles/App.css"
+import Divider from './components/Layouts/Divider'
 
 const App = () => {
   return (
@@ -13,6 +15,7 @@ const App = () => {
       <Intro />
       <About />
       <Projects />
+      <Divider />
       <Footer />
     </div>
   )

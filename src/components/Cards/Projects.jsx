@@ -1,71 +1,155 @@
 import React from 'react'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEye } from '@fortawesome/free-regular-svg-icons'
+import { faRightLong } from '@fortawesome/free-solid-svg-icons/faRightLong'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css';
+import "swiper/css";
+
 
 const Projects = () => {
   return (
     <>
-    <div className="mr-2 -ml-5">
-    <h1 className="text-center mt-10 font-bold text-2xl">Project Highlights</h1>
-    <div className="container grid lg:grid-cols-4 sm:grid-cols-2 sm:gap-5 sm:ml-10 mt-5 mb-10 text-white lg:gap-x-10 w-auto mr-10">
+    <section className="my-10 mb-20 border shadow-inner pb-10">
+    <h1 className="text-center mt-8 font-bold text-2xl text-[#22024A]">Project Highlights</h1>
+   <div className="flex justify-end items-end"> <FontAwesomeIcon icon={faRightLong} className="h-7 mr-5 animate-ping" style={{animationDuration: "2s",animationIterationCount: "infinite", animationTimingFunction: "ease-out"}} /></div>
+    <div className="mt-5">
+    <Swiper 
+      spaceBetween={10}
+      slidesPerView={3}
+      breakpoints={{
 
-    <div className="w-[295px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start -mr-10">
-  
+         // when window width is >= 640px
+         640: {
+           width: 640,
+           slidesPerView: 2,
+         },
+         // when window width is >= 768px
+         768: {
+           width: 768,
+           slidesPerView: 2,
+         },
+       }}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      <SwiperSlide>
+      <div className="ml-2 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
-        Feedback Review
+        Feedback Review App
      </h2>
       <p className="text-[10.4px] font-medium leading-4">REACT + CSS + LOCALSTORAGE</p>
       <p className="font-extralight text-sm">Feedback Review App with user ratings and comments</p>
-       <div className="card-actions justify-end">
-        <div className="badge badge-outline ">Fashion</div> 
-         <div className="badge badge-outline">Products</div>
+       <div className="card-actions justify-start text-sm font-extralight gap-5">
+       <div className="flex justify-between text-sm font-extralight">
+           <a href="https://github.com/PeaceNaza/Feedback-App.git"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
+           Code</a>
+         </div>
+       <div className="flex justify-between">
+         <a href="https://feedback-aurs1thf5-peaces-projects-1e9140df.vercel.app
+"> <FontAwesomeIcon icon={faEye} className="mr-2" />
+           Live</a>
+         </div>
        </div>
     </div>
 </div>
+      </SwiperSlide>
 
-    <div className="w-[295px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
+      <SwiperSlide>
+      <div className="ml-3 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Todo App
      </h2>
      <p className="text-[10.4px] font-medium leading-4">React + TailwindCSS + LOCALSTORAGE</p>
       <p  className="font-extralight text-sm">Todo App for efficient task management</p>
-       <div className="card-actions justify-end">
-        <div className="badge badge-outline">Fashion</div> 
-         <div className="badge badge-outline">Products</div>
+       <div className="card-actions justify-start text-sm font-extralight gap-5">
+       <div className="flex justify-between text-sm font-extralight">
+           <a href="https://github.com/PeaceNaza/Todo-app.git"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
+           Code</a>
+         </div>
+       <div className="flex justify-between">
+         <a href="https://todo-6ulk9zr3f-peaces-projects-1e9140df.vercel.app/
+"> <FontAwesomeIcon icon={faEye} className="mr-2" />
+           Live</a>
+         </div>
        </div>
     </div>
 </div>
+      </SwiperSlide>
 
-    <div className="w-[295px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
+      <SwiperSlide>
+      <div className="ml-2 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
-        Login and Sign-Up Page
+        Quiz App
      </h2>
-      <p className="text-[10.4px] font-medium leading-4">React + TailwindCSS + Firebase</p>
-      <p  className="font-extralight text-sm">Login and Sign-Up page with secure Firebase authentication</p>
-       <div className="card-actions justify-end">
-        <div className="badge badge-outline">Fashion</div> 
-         <div className="badge badge-outline">Products</div>
+      <p className="text-[10.4px] font-medium leading-4">HTML + CSS + javaScript</p>
+      <p  className="font-extralight text-sm">Random question with multiple choices</p>
+       <div className="card-actions justify-start text-sm font-extralight gap-5">
+         <div className="flex justify-between text-sm font-extralight">
+           <a href="https://github.com/PeaceNaza/Quiz-App.git"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
+           Code</a>
+         </div>
+         <div className="flex justify-between">
+         <a href="https://quiz-app-taupe-eight.vercel.app/"> <FontAwesomeIcon icon={faEye} className="mr-2" />
+           Live</a>
+         </div>
        </div>
     </div>
 </div>
+      </SwiperSlide>
 
-    <div className="w-[295px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
+      <SwiperSlide>
+      <div className="ml-1 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         FAQ Dropdown Accordion
      </h2>
      <p className="text-[10.4px] font-medium leading-4">HTML + CSS + JavaScript</p>
       <p  className="font-extralight text-sm"> FAQ Dropdown Accordion for users to access frequently asked questions</p>
-       <div className="card-actions justify-end">
-        <div className="badge badge-outline">Fashion</div> 
-         <div className="badge badge-outline">Products</div>
+       <div className="card-actions justify-start text-sm font-extralight gap-5">
+         <div className="flex justify-between text-sm font-extralight">
+           <a href="https://github.com/PeaceNaza/Faq-accordion-challenge.git"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
+           Code</a>
+         </div>
+         <div className="flex justify-between">
+         <a href="https://faq-accordion-challenge-tau.vercel.app/"> <FontAwesomeIcon icon={faEye} className="mr-2" />
+           Live</a>
+         </div>
+       </div>
+    </div>
+  </div>
+      </SwiperSlide>
+
+      <SwiperSlide>
+      <div className="text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
+       <div className="card-body">
+        <h2 className="card-title font-extralight text-xl">
+        Login and Sign-Up Page
+     </h2>
+      <p className="text-[10.4px] font-medium leading-4">React + TailwindCSS + Firebase</p>
+      <p  className="font-extralight text-sm">Login and Sign-Up with secure Firebase authentication</p>
+       <div className="card-actions justify-start text-sm font-extralight gap-5">
+         <div className="flex justify-between text-sm font-extralight">
+           <a href="https://github.com/PeaceNaza/Firebase-Auth.git"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
+           Code</a>
+         </div>
+         <div className="flex justify-between">
+         <a href="https://firebase-project-tan.vercel.app/"> <FontAwesomeIcon icon={faEye} className="mr-2" />
+           Live</a>
+         </div>
        </div>
     </div>
 </div>
+      </SwiperSlide>
 
-  </div>
- </div>
+    </Swiper>
+    
+   </div>
+ </section>
 </>
   )
 }
