@@ -6,6 +6,7 @@ import { faRightLong } from '@fortawesome/free-solid-svg-icons/faRightLong'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import "swiper/css";
+import "../Styles/App.css"
 
 
 const Projects = () => {
@@ -13,13 +14,12 @@ const Projects = () => {
     <>
     <section className="my-10 mb-20 border shadow-inner pb-10">
     <h1 className="text-center mt-8 font-bold text-2xl text-[#22024A]">Project Highlights</h1>
-   <div className="flex justify-end items-end"> <FontAwesomeIcon icon={faRightLong} className="h-7 mr-5 animate-ping" style={{animationDuration: "2s",animationIterationCount: "infinite", animationTimingFunction: "ease-out"}} /></div>
+   <div className="flex justify-end items-end"> <FontAwesomeIcon icon={faRightLong} className="icon h-7 mr-5 animate-ping" style={{animationDuration: "2s",animationIterationCount: "infinite", animationTimingFunction: "ease-out"}} /></div>
     <div className="mt-5">
-    <Swiper 
+    <Swiper
       spaceBetween={10}
       slidesPerView={3}
       breakpoints={{
-
          // when window width is >= 640px
          640: {
            width: 640,
@@ -47,7 +47,7 @@ const Projects = () => {
       onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide>
-      <div className="ml-2 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start">
+      <div className="card1 ml-2 text-white lg:w-[400px] lg:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Feedback Review App
@@ -70,7 +70,7 @@ const Projects = () => {
       </SwiperSlide>
 
       <SwiperSlide>
-      <div className="ml-3 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
+      <div className="card1 ml-3 text-white lg:w-[400px] lg:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Todo App
@@ -93,7 +93,7 @@ const Projects = () => {
       </SwiperSlide>
 
       <SwiperSlide>
-      <div className="ml-2 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
+      <div className="card1 ml-2 text-white lg:w-[400px] lg:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Quiz App
@@ -115,7 +115,7 @@ const Projects = () => {
       </SwiperSlide>
 
       <SwiperSlide>
-      <div className="ml-1 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
+      <div className="card1 ml-1 text-white lg:w-[400px] lg:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         FAQ Dropdown Accordion
@@ -137,7 +137,7 @@ const Projects = () => {
       </SwiperSlide>
 
       <SwiperSlide>
-      <div className="text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
+      <div className="card1 text-white lg:w-[400px] lg:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Login and Sign-Up Page
@@ -157,6 +157,7 @@ const Projects = () => {
     </div>
 </div>
       </SwiperSlide>
+      
 
     </Swiper>
     
