@@ -84,8 +84,7 @@ const Projects = () => {
            Code</a>
          </div>
        <div className="flex justify-between">
-         <a href="https://todo-6ulk9zr3f-peaces-projects-1e9140df.vercel.app/
-"> <FontAwesomeIcon icon={faEye} className="mr-2" />
+         <a href="https://todo-7t3v184lf-peaces-projects-1e9140df.vercel.app"> <FontAwesomeIcon icon={faEye} className="mr-2" />
            Live</a>
          </div>
        </div>
