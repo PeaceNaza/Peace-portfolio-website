@@ -27,7 +27,7 @@ const Footer = () => {
           
           </div>
           <div>
-            <img src={desk} alt="office pink table and desk" className="h-[500px] w-full" />
+            <img src={desk} alt="office pink table and desk" className="h-[300px]" />
           </div>
         </div>
         

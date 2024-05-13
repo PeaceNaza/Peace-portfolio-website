@@ -18,7 +18,7 @@ const Projects = () => {
     <div className="mt-5">
     <Swiper
       spaceBetween={10}
-      slidesPerView={3}
+      slidesPerView={1}
       breakpoints={{
          // when window width is >= 640px
          640: {
