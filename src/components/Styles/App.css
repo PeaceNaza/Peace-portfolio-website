@@ -35,12 +35,12 @@ body {
 
   /* Increase flexibility for Swiper slides */
   .swiper-slide {
-    width: 200px !important;
+    width: 250px !important;
   }
 
   /* Make project cards full width */
   .card1 {
-    width: 200px;
+    width: 250px;
     height: 250px;
     margin-left: 2px !important; 
     margin-right: 10px !important;  

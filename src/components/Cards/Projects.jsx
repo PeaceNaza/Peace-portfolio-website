@@ -14,7 +14,8 @@ const Projects = () => {
     <>
     <section className="my-10 mb-20 border shadow-inner pb-10">
     <h1 className="text-center mt-8 font-bold text-2xl text-[#22024A]">Project Highlights</h1>
-   <div className="flex justify-end items-end"> <FontAwesomeIcon icon={faRightLong} className="icon h-7 mr-5 animate-ping" style={{animationDuration: "2s",animationIterationCount: "infinite", animationTimingFunction: "ease-out"}} /></div>
+   <div className="flex justify-end items-end"> 
+   <FontAwesomeIcon icon={faRightLong} className="icon h-7 mr-5 animate-ping" style={{animationDuration: "2s",animationIterationCount: "infinite", animationTimingFunction: "ease-out"}} /></div>
     <div className="mt-5">
     <Swiper
       spaceBetween={10}
@@ -52,10 +53,10 @@ const Projects = () => {
         <h2 className="card-title font-extralight text-xl">
         Feedback Review App
      </h2>
-      <p className="text-[10.4px] font-medium leading-4">REACT + CSS + LOCALSTORAGE</p>
+      <p className="text-[10.4px] font-medium leading-8">REACT + CSS + LOCALSTORAGE</p>
       <p className="font-extralight text-sm">Feedback Review App with user ratings and comments</p>
-       <div className="card-actions justify-start text-sm font-extralight gap-5">
-       <div className="flex justify-between text-sm font-extralight">
+       <div className="card-actions justify-start text-sm font-extralight gap-5 leading-8">
+       <div className="flex justify-between text-sm font-extralight leading-8">
            <a href="https://github.com/PeaceNaza/Feedback-App.git"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
            Code</a>
          </div>
@@ -75,10 +76,10 @@ const Projects = () => {
         <h2 className="card-title font-extralight text-xl">
         Todo App
      </h2>
-     <p className="text-[10.4px] font-medium leading-4">React + TailwindCSS + LOCALSTORAGE</p>
+     <p className="text-[10.4px] font-medium leading-8">React + TailwindCSS + LOCALSTORAGE</p>
       <p  className="font-extralight text-sm">Todo App for efficient task management</p>
-       <div className="card-actions justify-start text-sm font-extralight gap-5">
-       <div className="flex justify-between text-sm font-extralight">
+       <div className="card-actions justify-start text-sm font-extralight gap-5 leading-8">
+       <div className="flex justify-between text-sm font-extralight leading-8">
            <a href="https://github.com/PeaceNaza/Todo-app.git"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
            Code</a>
          </div>
@@ -98,10 +99,10 @@ const Projects = () => {
         <h2 className="card-title font-extralight text-xl">
         Quiz App
      </h2>
-      <p className="text-[10.4px] font-medium leading-4">HTML + CSS + javaScript</p>
+      <p className="text-[10.4px] font-medium leading-8">HTML + CSS + javaScript</p>
       <p  className="font-extralight text-sm">Random question with multiple choices</p>
-       <div className="card-actions justify-start text-sm font-extralight gap-5">
-         <div className="flex justify-between text-sm font-extralight">
+       <div className="card-actions justify-start text-sm font-extralight gap-5 leading-8">
+         <div className="flex justify-between text-sm font-extralight leading-8">
            <a href="https://github.com/PeaceNaza/Quiz-App.git"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
            Code</a>
          </div>
@@ -120,10 +121,10 @@ const Projects = () => {
         <h2 className="card-title font-extralight text-xl">
         FAQ Dropdown Accordion
      </h2>
-     <p className="text-[10.4px] font-medium leading-4">HTML + CSS + JavaScript</p>
+     <p className="text-[10.4px] font-medium leading-8">HTML + CSS + JavaScript</p>
       <p  className="font-extralight text-sm"> FAQ Dropdown Accordion for users to access frequently asked questions</p>
-       <div className="card-actions justify-start text-sm font-extralight gap-5">
-         <div className="flex justify-between text-sm font-extralight">
+       <div className="card-actions justify-start text-sm font-extralight gap-5 leading-8">
+         <div className="flex justify-between text-sm font-extralight leading-8">
            <a href="https://github.com/PeaceNaza/Faq-accordion-challenge.git"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
            Code</a>
          </div>
@@ -142,10 +143,10 @@ const Projects = () => {
         <h2 className="card-title font-extralight text-xl">
         Login and Sign-Up Page
      </h2>
-      <p className="text-[10.4px] font-medium leading-4">React + TailwindCSS + Firebase</p>
+      <p className="text-[10.4px] font-medium leading-8">React + TailwindCSS + Firebase</p>
       <p  className="font-extralight text-sm">Login and Sign-Up with secure Firebase authentication</p>
-       <div className="card-actions justify-start text-sm font-extralight gap-5">
-         <div className="flex justify-between text-sm font-extralight">
+       <div className="card-actions justify-start text-sm font-extralight gap-5 leading-8">
+         <div className="flex justify-between text-sm font-extralight leading-8">
            <a href="https://github.com/PeaceNaza/Firebase-Auth.git"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
            Code</a>
          </div>
