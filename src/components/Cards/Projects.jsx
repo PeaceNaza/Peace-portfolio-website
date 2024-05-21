@@ -69,6 +69,27 @@ const Projects = () => {
     </div>
 </div>
       </SwiperSlide>
+      <SwiperSlide>
+      <div className="card1 ml-2 text-white lg:w-[400px] lg:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
+       <div className="card-body">
+        <h2 className="card-title font-extralight text-xl">
+        Task Manager
+     </h2>
+      <p className="text-[10.4px] font-medium leading-8">REACT + TailwindCSS + Zustand</p>
+      <p className="font-extralight text-sm">State management with Zustand</p>
+       <div className="card-actions justify-start text-sm font-extralight gap-5 leading-8">
+       <div className="flex justify-between text-sm font-extralight leading-8">
+           <a href="https://github.com/PeaceNaza/Zustand-mgt-store.git"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
+           Code</a>
+         </div>
+       <div className="flex justify-between">
+         <a href="https://zustand-mgt-store.vercel.app/"> <FontAwesomeIcon icon={faEye} className="mr-2" />
+           Live</a>
+         </div>
+       </div>
+    </div>
+</div>
+      </SwiperSlide>
 
       <SwiperSlide>
       <div className="card1 ml-3 text-white lg:w-[400px] lg:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
