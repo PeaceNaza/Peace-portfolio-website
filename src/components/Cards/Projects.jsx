@@ -12,7 +12,7 @@ import "../Styles/App.css"
 const Projects = () => {
   return (
     <>
-    <section className="my-10 mb-20 border shadow-inner pb-10">
+    <section className="my-10 mb-20 pb-10">
     <h1 className="text-center mt-8 font-bold text-2xl text-[#22024A]">Project Highlights</h1>
    <div className="flex justify-end items-end"> 
    <FontAwesomeIcon icon={faRightLong} className="icon h-7 mr-5 animate-ping" style={{animationDuration: "2s",animationIterationCount: "infinite", animationTimingFunction: "ease-out"}} /></div>
