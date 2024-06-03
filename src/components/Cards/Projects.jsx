@@ -51,6 +51,28 @@ const Projects = () => {
       <div className="card1 ml-2 text-white lg:w-[400px] lg:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
+        Tmdb api Movie App
+     </h2>
+      <p className="text-[10.4px] font-medium leading-8">REACT + TailwindCSS +  useQuery</p>
+      <p className="font-extralight text-sm">Movie data from tmdb api for web application </p>
+       <div className="card-actions justify-start text-sm font-extralight gap-5 leading-8">
+       <div className="flex justify-between text-sm font-extralight leading-8">
+           <a href="https://github.com/PeaceNaza/tmdb-moviemate.git"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
+           Code</a>
+         </div>
+       <div className="flex justify-between">
+         <a href="https://tmdb-moviemate.vercel.app/"> <FontAwesomeIcon icon={faEye} className="mr-2" />
+           Live</a>
+         </div>
+       </div>
+    </div>
+</div>
+      </SwiperSlide>
+
+      <SwiperSlide>
+      <div className="card1 ml-2 text-white lg:w-[400px] lg:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
+       <div className="card-body">
+        <h2 className="card-title font-extralight text-xl">
         Feedback Review App
      </h2>
       <p className="text-[10.4px] font-medium leading-8">REACT + CSS + LOCALSTORAGE</p>
@@ -69,6 +91,7 @@ const Projects = () => {
     </div>
 </div>
       </SwiperSlide>
+
       <SwiperSlide>
       <div className="card1 ml-2 text-white lg:w-[400px] lg:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
        <div className="card-body">
