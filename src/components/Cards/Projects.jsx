@@ -2,8 +2,6 @@ import React from 'react'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye } from '@fortawesome/free-regular-svg-icons'
-import { faRightLong } from '@fortawesome/free-solid-svg-icons/faRightLong'
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import "swiper/css";
 import "../Styles/App.css"
@@ -15,7 +13,7 @@ const Projects = () => {
     <section className="my-10 pb-10">
     <h1 className="text-center mt-8 font-bold text-2xl text-[#22024A]">Project Highlights</h1>
    
-    <div className="mt-5 grid lg:grid-cols-3 sm:grid-cols-2 gap-5 px-3">
+    <div className="mt-5 grid lg:grid-cols-3 sm:grid-cols-2 gap-5 pr-4 pl-1">
 
       <div className="card1 ml-2 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
        <div className="card-body">
