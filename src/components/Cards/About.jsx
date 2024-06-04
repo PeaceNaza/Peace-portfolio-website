@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <>
-      <section className="mt-10 bg-[#22024A] text-white text-center px-4 bg-gradient-to-r py-10 md:px-72 shadow">
+      <section className="mt-10 mb-20 bg-[#22024A] text-white text-center px-4 bg-gradient-to-r py-10 md:px-72 shadow">
 
       <h2 className="text-3xl font-bold">Hello! I'm Peace. Nice to have you here. </h2>
         

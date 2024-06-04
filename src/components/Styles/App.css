@@ -58,12 +58,17 @@ body {
 
 } 
 /*arrow icon sizing */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .icon {
     /* Adjust the size of the icon */
     height: 1rem !important;
     padding-top: 10px !important;
-  }
+  } 
+  .contact-text {
+    margin-right: 4px;
+    margin-top: -20px;
+  } 
+  
 }
 
 

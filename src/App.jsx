@@ -8,7 +8,7 @@ import Footer from './components/Layouts/Footer'
 import "./components/Styles/App.css"
 import Divider from './components/Layouts/Divider'
 import Contact from './components/Cards/Contact'
-import Divider2 from './components/Layouts/Divider2'
+
 
 const App = () => {
   
@@ -17,7 +17,7 @@ const App = () => {
       <Headers />
       <Intro />
       <About />
-      <Divider2 />
+      <Divider />
       <Contact />
       <Projects />
       <Divider />
