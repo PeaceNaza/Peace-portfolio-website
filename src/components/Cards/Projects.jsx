@@ -1,9 +1,7 @@
-import React from 'react'
+
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye } from '@fortawesome/free-regular-svg-icons'
-import 'swiper/swiper-bundle.css';
-import "swiper/css";
 import "../Styles/App.css"
 
 
