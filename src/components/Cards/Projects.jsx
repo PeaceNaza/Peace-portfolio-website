@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye } from '@fortawesome/free-regular-svg-icons'
 import "../Styles/App.css"
 
-
 const Projects = () => {
+  
   return (
     <>
     <section className="my-10 pb-10">
@@ -22,11 +22,11 @@ const Projects = () => {
       <p className="font-extralight text-sm">Movie data from tmdb api for web application </p>
        <div className="card-actions justify-start text-sm font-extralight gap-5 leading-8">
        <div className="flex justify-between text-sm font-extralight leading-8">
-           <a href="https://github.com/PeaceNaza/tmdb-moviemate.git"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
+           <a href="https://github.com/PeaceNaza/movie-mate-tmdb.git"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
            Code</a>
          </div>
        <div className="flex justify-between">
-         <a href="https://tmdb-moviemate.vercel.app/"> <FontAwesomeIcon icon={faEye} className="mr-2" />
+         <a href="https://movie-mate-tmdb.vercel.app/"> <FontAwesomeIcon icon={faEye} className="mr-2" />
            Live</a>
          </div>
        </div>
