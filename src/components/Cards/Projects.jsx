@@ -8,12 +8,12 @@ const Projects = () => {
   
   return (
     <>
-    <section className="my-10 pb-10">
+    <section className="my-10 pb-10 px-3">
     <h1 className="text-center mt-8 font-bold text-2xl text-[#22024A]">Project Highlights</h1>
    
     <div className="mt-5 grid lg:grid-cols-3 sm:grid-cols-2 gap-5 pr-4 pl-1">
 
-      <div className="card1 ml-2 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
+      <div className="card1 ml-2 text-white sm:w-[400px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Tmdb api Movie App
@@ -33,7 +33,7 @@ const Projects = () => {
     </div>
 </div>
       
-      <div className="card1 ml-2 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
+      <div className="card1 ml-2 text-white sm:w-[400px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Feedback Review App
@@ -54,7 +54,7 @@ const Projects = () => {
     </div>
 </div>
     
-      <div className="card1 ml-2 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
+      <div className="card1 ml-2 text-white sm:w-[400px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Task Manager
@@ -74,7 +74,7 @@ const Projects = () => {
     </div>
 </div>
       
-      <div className="card1 ml-3 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
+      <div className="card1 ml-3 text-white sm:w-[400px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Todo App
@@ -94,7 +94,7 @@ const Projects = () => {
     </div>
 </div>
      
-      <div className="card1 ml-2 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
+      <div className="card1 ml-2 text-white sm:w-[400px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Quiz App
@@ -114,7 +114,7 @@ const Projects = () => {
     </div>
 </div>
       
-      <div className="card1 ml-1 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
+      <div className="card1 ml-1 text-white sm:w-[400px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         FAQ Dropdown Accordion
@@ -134,7 +134,7 @@ const Projects = () => {
     </div>
   </div>
      
-      <div className="card1 text-white w-[400px] h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] ml-3">
+      <div className="card1 text-white sm:w-[400px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] ml-3">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Login and Sign-Up Page
