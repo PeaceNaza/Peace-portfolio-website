@@ -66,8 +66,7 @@ const Projects = () => {
            Code</a>
          </div>
        <div className="flex justify-between">
-         <a href="https://feedback-aurs1thf5-peaces-projects-1e9140df.vercel.app
-"> <FontAwesomeIcon icon={faEye} className="mr-2" />
+         <a href="https://feedback-app-beige-mu.vercel.app/"> <FontAwesomeIcon icon={faEye} className="mr-2" />
            Live</a>
          </div>
        </div>
@@ -127,7 +126,7 @@ const Projects = () => {
            Code</a>
          </div>
          <div className="flex justify-between">
-         <a href="https://quiz-app-taupe-eight.vercel.app/"> <FontAwesomeIcon icon={faEye} className="mr-2" />
+         <a href="https://feedback-app-beige-mu.vercel.app/"> <FontAwesomeIcon icon={faEye} className="mr-2" />
            Live</a>
          </div>
        </div>
