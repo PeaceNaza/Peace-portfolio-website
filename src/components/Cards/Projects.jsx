@@ -11,9 +11,9 @@ const Projects = () => {
     <section className="my-10 pb-10 px-3">
     <h1 className="text-center mt-8 font-bold text-2xl text-[#22024A]">Project Highlights</h1>
    
-    <div className="mt-5 grid lg:grid-cols-3 sm:grid-cols-2 gap-5 pr-4 pl-1">
+    <div className="mt-5 grid lg:grid-cols-3 sm:grid-cols-2 px-2 gap-y-5">
 
-      <div className="card1 ml-2 text-white sm:w-[400px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
+      <div className="card1 ml-2 text-white w-[360px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Tmdb api Movie App
@@ -32,8 +32,28 @@ const Projects = () => {
        </div>
     </div>
 </div>
+
+      <div className="card1 ml-2 text-white w-[360px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
+       <div className="card-body">
+        <h2 className="card-title font-extralight text-xl">
+        News Homepage
+     </h2>
+      <p className="text-[10.4px] font-medium leading-8">REACT + TailwindCSS +  Mantine</p>
+      <p className="font-extralight text-sm">News Homepage challenge from Frontend Mentor </p>
+       <div className="card-actions justify-start text-sm font-extralight gap-5 leading-8">
+       <div className="flex justify-between text-sm font-extralight leading-8">
+           <a href="https://github.com/PeaceNaza/news_homepage_fm"> <FontAwesomeIcon icon={faGithub} className="mr-2" />
+           Code</a>
+         </div>
+       <div className="flex justify-between">
+         <a href="https://news-homepage-fm-three.vercel.app/"> <FontAwesomeIcon icon={faEye} className="mr-2" />
+           Live</a>
+         </div>
+       </div>
+    </div>
+</div>
       
-      <div className="card1 ml-2 text-white sm:w-[400px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
+      <div className="card1 ml-2 text-white w-[360px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Feedback Review App
@@ -54,7 +74,7 @@ const Projects = () => {
     </div>
 </div>
     
-      <div className="card1 ml-2 text-white sm:w-[400px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
+      <div className="card1 ml-2 text-white w-[360px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Task Manager
@@ -74,7 +94,7 @@ const Projects = () => {
     </div>
 </div>
       
-      <div className="card1 ml-3 text-white sm:w-[400px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
+      <div className="card1 ml-3 text-white w-[360px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Todo App
@@ -94,7 +114,7 @@ const Projects = () => {
     </div>
 </div>
      
-      <div className="card1 ml-2 text-white sm:w-[400px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
+      <div className="card1 ml-2 text-white w-[360px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Quiz App
@@ -114,7 +134,7 @@ const Projects = () => {
     </div>
 </div>
       
-      <div className="card1 ml-1 text-white sm:w-[400px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
+      <div className="card1 ml-1 text-white w-[360px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08]">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         FAQ Dropdown Accordion
@@ -134,7 +154,7 @@ const Projects = () => {
     </div>
   </div>
      
-      <div className="card1 text-white sm:w-[400px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] ml-3">
+      <div className="card1 text-white w-[360px] sm:h-[200px] bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] ml-3">
        <div className="card-body">
         <h2 className="card-title font-extralight text-xl">
         Login and Sign-Up Page
