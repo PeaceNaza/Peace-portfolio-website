@@ -66,7 +66,7 @@ const Projects = () => {
   
   return (
     <>
-    <section className="my-10 p-10 px-3">
+    <section className="my-10 pb-10">
     <h1 className="text-center mt-8 font-bold text-2xl text-[#22024A]">Project Highlights</h1>
     <div className="flex flex-wrap justify-start gap-x-5 gap-y-5 mt-5 md:ml-10">
     {projectDetails.map((project, index) =>  (
