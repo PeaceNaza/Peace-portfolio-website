@@ -1,21 +1,20 @@
 /*global body styles */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  
-} 
+}
 
 .tossing {
   animation-name: tossing;
   animation-duration: 3.5s;
   animation-iteration-count: infinite;
-  transform-origin: 50% 90%;    
-
+  transform-origin: 50% 90%;
 }
 @keyframes tossing {
   0% {
@@ -27,8 +26,7 @@ body {
   100% {
     transform: rotate(-3deg);
   }
-} 
-
+}
 
 @media screen and (max-width: 600px) {
   /* Adjustments for screens 600px and below */
@@ -42,8 +40,8 @@ body {
   .card1 {
     width: 250px;
     height: 250px;
-    margin-left: 2px !important; 
-    margin-right: 10px !important;  
+    margin-left: 2px !important;
+    margin-right: 10px !important;
   }
 
   /* Center align text in project cards */
@@ -53,34 +51,32 @@ body {
 
   /* Adjust spacing for GitHub and Live links */
   .card-actions {
-    gap: 1rem; 
+    gap: 1rem;
   }
-
-} 
+}
 /*arrow icon sizing */
 @media screen and (max-width: 420px) {
   .icon {
     /* Adjust the size of the icon */
     height: 1rem !important;
     padding-top: 10px !important;
-  } 
+  }
   .contact-text {
     margin-right: 4px;
     margin-top: -20px;
-  } 
-  
+  }
+
   .mobile img {
     margin-top: 28px;
   }
 }
-
 
 @media screen and (max-width: 600px) {
   /* Center align the content */
   .navbar {
     flex-direction: column;
     align-items: center;
-  }  
+  }
 
   .mobile img {
     right: 20px;
@@ -94,8 +90,5 @@ body {
   .text-container p {
     padding-left: 10px;
     text-align: center;
-    
-  } 
-  
-} 
-
+  }
+}
