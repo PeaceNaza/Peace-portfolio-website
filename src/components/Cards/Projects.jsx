@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: "Multi-Step Form",
       stack: "REACT + TailwindCSS + Zustand + Mantine",
-      description: "Form-building with Zustand for state management",
+      description: "Form-building challenge from Frontend Mentor",
       codeLink: "https://github.com/PeaceNaza/multi_step_form_fm.git",
       liveLink: "https://multi-step-form-fm-orpin.vercel.app/",
     },
