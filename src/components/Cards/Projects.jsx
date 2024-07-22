@@ -6,6 +6,13 @@ import "../Styles/App.css";
 const Projects = () => {
   const projectDetails = [
     {
+      title: "Multi-Step Form",
+      stack: "REACT + TailwindCSS + Zustand + Mantine",
+      description: "Form-building with Zustand for state management",
+      codeLink: "https://github.com/PeaceNaza/multi_step_form_fm.git",
+      liveLink: "https://multi-step-form-fm-orpin.vercel.app/",
+    },
+    {
       title: "Tmdb api Movie App",
       stack: "REACT + TailwindCSS +  useQuery",
       description: "Movie data from tmdb api for web application",
