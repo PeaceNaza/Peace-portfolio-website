@@ -13,6 +13,13 @@ const Projects = () => {
       liveLink: "https://multi-step-form-fm-orpin.vercel.app/",
     },
     {
+      title: "Task Mgt App",
+      stack: "REACT + Typescript + LocalStorage + TailwindCSS",
+      description: "Task Manager App with Typescript",
+      codeLink: "https://github.com/PeaceNaza/task-mgt-typescript-app.git",
+      liveLink: "https://task-mgt-typescript-app.vercel.app"
+    },
+    {
       title: "Tmdb api Movie App",
       stack: "REACT + TailwindCSS +  useQuery",
       description: "Movie data from tmdb api for web application",

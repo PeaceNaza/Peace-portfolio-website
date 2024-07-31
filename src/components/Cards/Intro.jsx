@@ -7,11 +7,11 @@ const Intro = () => {
     <>
       <div className="flex flex-col justify-center items-center w-screen text-[#22024A]">
         <h1 className="text-center font-bold text-4xl mt-10">
-          Front End Developer & Technical Writer
+          Front-End Developer & Technical Writer
         </h1>
 
         <h2 className="text-center text-2xl font-light mt-5">
-          HTML - CSS - JavaScript - React - Zustand - TailwindCSS
+          HTML - CSS - JavaScript - Typescript - React - TailwindCSS
         </h2>
 
         <div className="flex justify-items-center flex-col mt-16 pb-2 w-[350px] rounded-[50%] shadow-lg bg-[#F3D8E0]">
