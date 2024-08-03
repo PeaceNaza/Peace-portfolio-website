@@ -13,11 +13,18 @@ const Projects = () => {
       liveLink: "https://multi-step-form-fm-orpin.vercel.app/",
     },
     {
-      title: "Task Mgt App",
+      title: "Task Manager",
       stack: "REACT + Typescript + LocalStorage + TailwindCSS",
-      description: "Task Manager App with Typescript",
+      description: "A Todo List application with drag and drop",
       codeLink: "https://github.com/PeaceNaza/task-mgt-typescript-app.git",
-      liveLink: "https://task-mgt-typescript-app.vercel.app"
+      liveLink: "https://peacenaza.github.io/task-mgt-typescript-app/"
+    },
+    {
+     title: "Note Taking App",
+     stack: "React + Typescript + Bootstrap + LocalStorage",
+     description: "A note-taking application with mackdown support",
+     codeLink: "https://github.com/PeaceNaza/Note_app.git",
+     liveLink: "https://peacenaza.github.io/Note_app/"
     },
     {
       title: "Tmdb api Movie App",
@@ -84,7 +91,7 @@ const Projects = () => {
         <div className="flex flex-wrap justify-start gap-x-5 gap-y-5 mt-5 md:ml-10">
           {projectDetails.map((project, index) => (
             <div key={index}>
-              <div className="card1 ml-2 w-[360px] h-[200px]  text-white bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
+              <div className="card1 lg:ml-0 xs:ml-2 w-[360px] lg:w-[385px] h-[200px]  text-white bg-[#22024A] shadow-xl transform transition-transform duration-300 hover:scale-[1.08] text-start text-wrap">
                 <div className="card-body">
                   <h2 className="card-title font-extralight text-xl">{project.title}</h2>
                   <p className="text-[10.4px] font-medium leading-8">{project.stack}</p>

@@ -7,10 +7,9 @@ const About = () => {
         <h2 className="text-3xl font-bold">Hello! I'm Peace. Nice to have you here. </h2>
 
         <p className="text-xl font-light mt-6">
-          I am an experienced front-end developer with a firm grasp of HTML, CSS, JavaScript, React,
-          and Tailwind CSS. I am passionate about crafting immersive and seamless user experiences
+          I am an experienced front-end developer with a firm grasp of HTML, CSS, JavaScript, Typescript, React, TailwindCSS and Mantine UI. I am passionate about crafting immersive and seamless user experiences
           that have a lasting impact on the user. I excel in fast-paced environments and leverage my
-          solid foundation in web development to bring ideas to fruition. Throughout my career, I
+          solid foundation in web development to bring ideas to fruition. Throughout my career, I
           have been fortunate enough to work on diverse projects, streamlining deployment and
           management to ensure efficient and effective delivery.
         </p>

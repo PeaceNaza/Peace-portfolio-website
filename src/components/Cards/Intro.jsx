@@ -11,7 +11,7 @@ const Intro = () => {
         </h1>
 
         <h2 className="text-center text-2xl font-light mt-5">
-          HTML - CSS - JavaScript - Typescript - React - TailwindCSS
+          HTML - CSS - JavaScript - Typescript - React - TailwindCSS - Mantine UI 
         </h2>
 
         <div className="flex justify-items-center flex-col mt-16 pb-2 w-[350px] rounded-[50%] shadow-lg bg-[#F3D8E0]">
