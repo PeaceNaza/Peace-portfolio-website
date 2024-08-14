@@ -20,6 +20,9 @@ const Header = () => {
                   <li>
                     <a href="https://medium.com/@peacedonatus38">Medium</a>
                   </li>
+                  <li>
+                    <a href="https://thebookmarketng.com/hooks-in-react-a-beginners-guide/">Article</a>
+                  </li>
                 </ul>
               </details>
             </li>
